@@ -4,6 +4,7 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuItem from "@material-ui/core/MenuItem";
+import Paper from "@material-ui/core/Paper";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import covidLogo from "./coronavirus.svg";
@@ -13,7 +14,7 @@ import AreaChart from "./components/AreaChart";
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: "50px auto",
-    width:"50%"
+    width: "50%",
   },
 }));
 
@@ -43,6 +44,7 @@ const App = () => {
           ></img>
 
           <FormControl className={classes.formControl}>
+            <h3>Select Country</h3>
             <Select
               value={country}
               onChange={(e) => setCountry(e.target.value)}
@@ -58,7 +60,9 @@ const App = () => {
           {/* Chart */}
 
           <Grid item xs={12}>
-            <AreaChart />
+            <Paper>
+              <AreaChart country={country} />
+            </Paper>
           </Grid>
         </Grid>
       </Container>
