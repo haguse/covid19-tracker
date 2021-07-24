@@ -8,6 +8,6 @@ export const fetchCountries = async () => {
 };
 
 export const fetchDailyData = async (country) => {
-    const { data } = await axios.get(`${baseEndpoint}/dayone/country/${country}`);
-    return data;
-  };
+  const { data } = await axios.get(`${baseEndpoint}/dayone/country/${country}`);
+  return data;
+};
