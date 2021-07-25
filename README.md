@@ -29,5 +29,5 @@ You will also see any lint errors in the console.
 
 #### Resources
 
-**[Covid19Api.com](https://www.covid19api.com/)**
+**[Covid19Api.com](https://www.covid19api.com/)** <br>
 **[codingwithdidem](https://www.youtube.com/c/codingwithdidem)**
