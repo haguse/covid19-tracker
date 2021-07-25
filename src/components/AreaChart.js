@@ -30,6 +30,7 @@ const AreaChart = ({ country }) => {
             type: "datetime",
             categories: dailyData.map((item) => item.Date),
           },
+          colors: ["#3366ff", "#40ff00", "#ff0000"],
           tooltip: {
             x: {
               format: "dd/MM/yy",
