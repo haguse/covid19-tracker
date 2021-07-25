@@ -25,7 +25,7 @@ const App = () => {
   useEffect(() => {
     const fetchCountriesData = async () => {
       const countries = await fetchCountries();
-      setCountries(countries);
+      setCountries(countries.sort((a, b) => (a.Country < b.Country ? -1 : 1)));
     };
     fetchCountriesData();
   }, []);
@@ -49,9 +49,11 @@ const App = () => {
               value={country}
               onChange={(e) => setCountry(e.target.value)}
             >
-              {countries.map((country) => {
+              {countries.map((country, id) => {
                 return (
-                  <MenuItem value={country.Slug}>{country.Country}</MenuItem>
+                  <MenuItem key={id} value={country.Slug}>
+                    {country.Country}
+                  </MenuItem>
                 );
               })}
             </Select>
