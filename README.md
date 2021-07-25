@@ -20,10 +20,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### Built with
-* [ReactJS (React Hooks)](https://reactjs.org/)
+<hr>
+
+#### Built with
+* [ReactJS](https://reactjs.org/)
 * [Apex Charts](https://apexcharts.com/)
-* [React Hooks](https://laravel.com)
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 #### Resources
 
