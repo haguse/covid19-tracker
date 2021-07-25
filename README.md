@@ -1,4 +1,4 @@
-You can view a live demo over at https://dazzling-boyd-f7ed22.netlify.app/
+You can view a live demo over at https://react-covid-tracker-h.netlify.app/
 
   ![Covid19 Tracker](/src/ss.png)
 
