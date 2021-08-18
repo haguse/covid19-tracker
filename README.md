@@ -1,3 +1,7 @@
+Website showing total cases of Covid-19. 
+All countries are available. 
+Just select the country.
+
 You can view a live demo over at https://react-covid-tracker-h.netlify.app/
 
   ![Covid19 Tracker](/src/ss.png)
