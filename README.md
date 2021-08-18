@@ -1,4 +1,4 @@
-Website showing total cases of Covid-19.  <br>
+The product graphically tells the countries' Covid-19 total cases, recoveries and deaths.  <br>
 All countries are available. <br>
 Just select the country.<br>
 
